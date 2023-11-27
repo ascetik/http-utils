@@ -1,0 +1,18 @@
+{
+    "name": "ascetik/http-utils",
+    "description": "Http Utility Tools",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ascetik\\Http\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ascetik",
+            "email": "ascetik@free.fr"
+        }
+    ],
+    "require": {}
+}
