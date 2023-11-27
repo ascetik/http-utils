@@ -21,7 +21,7 @@ use Ascetik\Http\Utils\Types\HttpClientException;
 
 class ForbiddenAccessException extends HttpClientException
 {
-    public function __construct(string $message = 'forbidden')
+    public function __construct(string $message = 'Forbidden')
     {
         parent::__construct($message, 403);
     }
