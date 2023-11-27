@@ -15,14 +15,14 @@
 
 declare(strict_types=1);
 
-namespace Ascetik\Http\Utils\Exceptions;
+namespace Core\Exceptions\Http;
 
 use Ascetik\Http\Utils\Types\HttpClientException;
 
-class PageNotFoundException extends HttpClientException
+class UnauthorizedException extends HttpClientException
 {
-    public function __construct(string $page = null)
+    public function __construct(string $message = 'Unauthorized')
     {
-        parent::__construct(trim($page . ' Not Found'), 404);
+        parent::__construct(trim($message), 401);
     }
 }
