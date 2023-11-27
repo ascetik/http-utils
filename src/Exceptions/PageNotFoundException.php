@@ -19,10 +19,10 @@ namespace Ascetik\Http\Utils\Exceptions;
 
 use Ascetik\Http\Utils\Types\HttpClientException;
 
-class MethodNotAllowedException extends HttpClientException
+class PageNotFoundException extends HttpClientException
 {
-    public function __construct(string $method)
+    public function __construct(string $page = null)
     {
-        parent::__construct($method . ' method is not allowed', 405);
+        parent::__construct($page . ' Not Found', 404);
     }
 }
