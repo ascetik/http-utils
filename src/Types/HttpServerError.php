@@ -17,8 +17,7 @@ declare(strict_types=1);
 
 namespace Ascetik\Http\Utils\Types;
 
-use Error;
 
-abstract class HttpServerError extends Error
+abstract class HttpServerError extends \Error implements HttpThrowable
 {
 }

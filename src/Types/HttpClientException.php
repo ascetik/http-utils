@@ -17,6 +17,6 @@ declare(strict_types=1);
 
 namespace Ascetik\Http\Utils\Types;
 
-abstract class HttpClientException extends \Exception
+abstract class HttpClientException extends \Exception implements HttpThrowable
 {
 }
