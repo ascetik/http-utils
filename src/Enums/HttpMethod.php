@@ -17,7 +17,8 @@ declare(strict_types=1);
 
 namespace Ascetik\Http\Utils\Enums;
 
-use Ascetik\Http\Utils\Exceptions\MethodNotAllowedException;
+use Ascetik\Http\Utils\Exceptions\Client\MethodNotAllowedException;
+
 
 /**
  * Enumerate available request methods
