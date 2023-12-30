@@ -15,7 +15,7 @@
 
 declare(strict_types=1);
 
-namespace Ascetik\Http\Utils\Exceptions;
+namespace Ascetik\Http\Utils\Exceptions\Client;
 
 use Ascetik\Http\Utils\Types\HttpClientException;
 
